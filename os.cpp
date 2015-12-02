@@ -1,31 +1,38 @@
 #include <iostream>
+#include "Jobtable.h"
 
 using namespace std;
 
-void startup(){
+  void startup(){
 
   }
 
-  void Crint(int &a, int p[]){
+  void Crint(long &a, long p[]){
+    jobadd(p);
+    print();
+  }
+
+  void Dskint(long &a, long p[]){
 
   }
 
-  void Dskint(int &a, int p[]){
+  void Tro(long &a, long p[]){
 
   }
 
-  void Tro(int &a, int p[]){
+  void Drmint (long &a, long p[])
+    {
+
+    }
+
+  void Svc(long &a, long p[]){
 
   }
 
-  void Svc(int &a, int p[]){
-
-  }
-
-  void siodisk(int jobnum);
-  void siodrum(int jobnum, int jobsize, int coreaddress, int direction);
-//  void ontrace();
-  void offtrace();
+  void siodisk(long jobnum);
+  void siodrum(long jobnum, long jobsize, long coreaddress, long direction);
+  void ontrace();
+  //void offtrace();
 
 
 
